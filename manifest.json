@@ -1,7 +1,7 @@
 {
   "name": "Stylish Pins",
   "description": "Hide sponsored data-grid items; I didn't want to do this, but I got 8 tiles in a row of sponsored content.",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "manifest_version": 3,
 
   "content_scripts": [
