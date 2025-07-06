@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/content.ts-DBRHiMqZ.js"
+        "assets/content.ts-BxJRML-S.js"
       ],
       "matches": [
         "*://*.pinterest.com/*"
@@ -23,7 +23,7 @@
         "*://*.pinterest.com/*"
       ],
       "resources": [
-        "assets/content.ts-DBRHiMqZ.js"
+        "assets/content.ts-BxJRML-S.js"
       ],
       "use_dynamic_url": false
     }

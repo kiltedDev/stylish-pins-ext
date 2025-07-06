@@ -1,12 +1,13 @@
 {
   "name": "stylish-pins-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
-    "dev": "vite dev"
+    "dev": "vite dev",
+    "package": "vite build && zip -r ../stylish-pins-ext.zip ./dist"
   },
   "keywords": [],
   "author": "",

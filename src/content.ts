@@ -7,7 +7,6 @@ const CARD_STYLES = `
     background-position: top left 86%;
     background-size: cover;
     border-radius: 1rem;
-    transition: background-position 0.3s ease-in-out;
     border: 3px solid #85BB65; 
   }
 `;
@@ -26,9 +25,7 @@ const getCardChildStyles = (cardSelectors: string[]) =>
 const styleSheet = document.createElement('style');
 styleSheet.className = 'stylish-pins';
 
-const selectorArray = [
-  '[data-grid-item="true"]:has([data-test-id="pinrep-footer"])',
-];
+const selectorArray = ['[data-grid-item="true"]:has([title="Sponsored"])'];
 
 const rules = [getCardStyles(selectorArray), getCardChildStyles(selectorArray)];
 
